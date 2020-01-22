@@ -1,0 +1,44 @@
+COMP/ELEC/MECH 450/550
+Project 4
+
+What are we doing?
+------------------
+
+This project requires you to:
+ 1. Copy your implementation of your validity checkers from Project 2. This
+ amounts to copy and pasting "CollisionChecking.cpp" into Project 4.
+ 2. Implement Reachability-Guided RRT (RG-RRT) in "RG-RRT.cpp" and "RG-RRT.h".
+ You should start from the existing implementation RRT in OMPL. Note that this
+ time we are doing control planning, rather than geometric.
+ 3. Implement the exercise code that uses your planner in "Project3Pendulum.cpp"
+ and "Project3Car.cpp".
+
+You may freely add code to any of these files for your implementation. Your
+implementation must be self-contained. In other words, you may NOT invoke other
+programs or link against other libraries to perform any of the project
+exercises; the implementation must be your own.
+
+All code for this project should be placed under the `src` directory.
+
+How do I run the code?
+----------------------
+
+A (minimal) Makefile is provided. Depending on your system, you may have to
+adjust parts of the Makefile. Once compiled, two binary files are produced:
+ 1. Project3Pendulum, which prompts you for either planning or benchmarking,
+ what torque for the pendulum, and in the case of planning what planner to use,
+ and
+2. Project3Car, which prompts you for planning or benchmarking and in the case
+of planning what planner to use.
+
+Please try to avoid modifying the skeleton of "Project3{Car, Pendulum}.cpp".
+However, you may add any code or routines that you see fit.
+
+How do I check my code?
+-----------------------
+
+The accuracy of your implementation will be assessed. You are required to
+visualize your paths generated in both cases for the report, and this
+visualization will be an invaluable tool for your debugging process. You can
+copy code provided from the OMPL tutorial as a starting point for your
+visualization, or you can implement something in your favorite language.

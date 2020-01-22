@@ -1,0 +1,42 @@
+COMP/ELEC/MECH 450/550
+Project 3
+
+What are we doing?
+------------------
+
+This project requires you to:
+ 1. Copy your implementation of your validity checkers from Project 2. This
+ amounts to copy and pasting "CollisionChecking.cpp" into Project 3.
+ 2. Implement the random tree planner (RTP) in "RTP.cpp" and "RTP.h". Feel free
+ to start from an existing implementation of a planner in OMPL, such as RRT.
+ 3. Implement the exercise code that uses your planner in
+ "Project3Exercise2.cpp" (for exercise 2) and "Project3Exercise3.cpp" (for
+ exercise 3).
+
+You may freely add code to any of these files for your implementation. Your
+implementation must be self-contained. In other words, you may NOT invoke other
+programs or link against other libraries to perform any of the project
+exercises; the implementation must be your own.
+
+All code for this project should be placed under the `src` directory.
+
+How do I run the code?
+----------------------
+
+A (minimal) Makefile is provided. Depending on your system, you may have to
+adjust parts of the Makefile. Once compiled, two binary files are produced:
+ 1. Project3Exercise2, which prompts you for which robot and which environment
+ you would like to plan for, and
+ 2. Project3Exercise3, which prompts you for what environment to benchmark against.
+
+Please try to avoid modifying the skeleton of "Project3Exercise{2, 3}.cpp".
+However, you may add any code or routines that you see fit.
+
+How do I check my code?
+-----------------------
+
+The accuracy of your implementation will be assessed. You are required to
+visualize your paths generated in Exercise 2 for the report, and this
+visualization will be an invaluable tool for your debugging process. You can
+copy code provided from the OMPL tutorial as a starting point for your
+visualization, or you can implement something in your favorite language.
