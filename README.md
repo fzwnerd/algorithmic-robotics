@@ -1,5 +1,5 @@
 This series of projects aims to implement a few robotics motion planning algorithms based on
-![OMPL library](http://ompl.kavrakilab.org/)
+[OMPL library](http://ompl.kavrakilab.org/)
 
 ## Project 1
 collision checking between point/circle/square robot and axis-aligned rectangular obstacles
